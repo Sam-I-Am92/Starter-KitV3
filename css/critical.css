@@ -39,6 +39,15 @@
     -o-object-fit: cover;
        object-fit: cover;
   }
+  #hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -11;
+    object-fit: cover;
+  }
   #hero .hero-content {
     width: 96%;
     max-width: 71.5em;
